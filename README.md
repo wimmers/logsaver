@@ -12,7 +12,7 @@ Finally, it will time the command and put the timings at the end of the output.
 
 Try:
 
-```[sh]
+```shell
 $ log.sh <command> <args> <filename>
 > Writing to: scratch/logs/<filename>.log
 ```
@@ -36,7 +36,8 @@ is also used to guess the filename.
 
 Clone the repository, mark `log.sh` as executable and symlink it somewhere
 on your search path, e.g. by running:
-```
+
+```shell
 $ chmod +x log.sh
 $ ln -s $(pwd)/log.sh /usr/local/bin
 ```
