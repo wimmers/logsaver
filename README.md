@@ -1,6 +1,6 @@
 # Logsaver
 
-With logsaver you can automatically save the ouptput of a shell command you run
+With logsaver you can automatically save the output of a shell command you run
 to a file.
 Logsaver will guess a folder name based on the current Git revision
 and the command.
