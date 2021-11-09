@@ -31,3 +31,12 @@ sys     <...>
 
 Note that `<filename>` is a file argument which is given to `<command>` but
 is also used to guess the filename.
+
+## Installation
+
+Clone the repository, mark `log.sh` as executable and symlink it somewhere
+on your search path, e.g. by running:
+```
+$ chmod +x log.sh
+$ ln -s $(pwd)/log.sh /usr/local/bin
+```
